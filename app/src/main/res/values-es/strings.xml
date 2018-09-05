@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ApplicacionDeUnaPantalla</string>
+    <string name="str_phone">Teléfono: </string>
+    <string name="str_address">Dirección: </string>
+    <string name="str_email">Correo: </string>
+    <string name="str_vaddress">Los cuarteles generales de Nintendo of America Inc. están en Redmon, Washington.</string>
+    <string name="str_dial">Marcar</string>
+</resources>
