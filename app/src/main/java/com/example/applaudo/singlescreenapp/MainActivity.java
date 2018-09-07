@@ -15,9 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void launchDialer(String number){
 
-        String numberToDial = "tel:"+number;
-
-        Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial));
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:"+number));
 
         startActivity(intent);
     }
